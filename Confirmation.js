@@ -2,7 +2,7 @@ var agree=confirm("Do you agree to share your personal information with the site
 
 if(agree)
 {
-    console.log("Name : Thea" + "\n" + "Height: 4\'9\"" + "\n" + "Weight: 97.17999999999999 ");
+    console.log("Name: " + nickname + "\n" + "Height: " + parseInt(heightfeet) + "\'" + parseInt(heightfeetinches) + "\""  + "\n" + "Weight: " + parseFloat(weightlbs));
 }
 else
 {
